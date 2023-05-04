@@ -1,0 +1,37 @@
+.header {
+  background: #ffffff;
+  .heder-Section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .notificition {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      button {
+        border: 1px solid #e8e8ea;
+        border-radius: 10px;
+      }
+      .plus {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+
+        &:hover {
+          border: 1px solid #1e65bc;
+          border-radius: 12px;
+        }
+        span {
+          color: #1e65bc;
+        }
+        button {
+          background: rgba(232, 247, 255, 0.5);
+          border: 0.6px solid #1e65bc;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

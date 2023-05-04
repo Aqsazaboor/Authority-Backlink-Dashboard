@@ -1,7 +1,9 @@
 import "./App.scss";
 
+import MainLayout from "./components/MainLayout/MainLayout";
+
 function App() {
-  return <div className="App">My app</div>;
+  return <MainLayout />;
 }
 
 export default App;
