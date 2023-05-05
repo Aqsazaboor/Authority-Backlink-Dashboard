@@ -25,6 +25,26 @@
   .table {
     display: flex;
     justify-content: center;
+    .first-cell {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+
+      a {
+        text-decoration-line: underline;
+        color: #5e6c88;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+    }
 
     .completed {
       color: #027a48;

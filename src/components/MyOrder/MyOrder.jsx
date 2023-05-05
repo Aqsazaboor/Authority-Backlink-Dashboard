@@ -3,6 +3,7 @@ import "./Order.scss";
 
 import { DataGrid } from "@mui/x-data-grid";
 import { Search } from "../../Assets/Svgs";
+
 const columns = [
   { field: "id", headerName: "Order#", width: 143 },
   { field: "date", headerName: "Date", width: 288 },

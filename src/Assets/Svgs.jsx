@@ -253,3 +253,22 @@ export const Search = () => {
     </svg>
   );
 };
+export const Green = () => {
+  return (
+    <svg
+      width="10"
+      height="10"
+      viewBox="0 0 10 10"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M5 8.51587V1.51587M5 1.51587L1.5 5.01587M5 1.51587L8.5 5.01587"
+        stroke="#12B76A"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};

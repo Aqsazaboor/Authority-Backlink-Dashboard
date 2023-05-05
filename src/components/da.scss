@@ -1,0 +1,30 @@
+.daClass {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  .positive {
+    display: flex;
+    align-items: center;
+    background: #ecfdf3;
+    border-radius: 16px;
+    padding: 2px 8px 2px 6px;
+    gap: 10px;
+    height: 22px;
+  }
+  .negative {
+    display: flex;
+    align-items: center;
+    background: #fef3f2;
+    border-radius: 16px;
+    padding: 2px 8px 2px 6px;
+    gap: 10px;
+    height: 22px;
+
+    svg {
+      transform: rotate(180deg);
+      path {
+        stroke: red;
+      }
+    }
+  }
+}
